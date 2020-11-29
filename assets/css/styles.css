@@ -15,6 +15,8 @@
     text-decoration: none;
 }
 
+/* Page header*/
+
 header {
     background-image: url('../img/bio-bg.jpg');
     background-position: center center;
@@ -30,7 +32,7 @@ header:before {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .menu-wrapper {
@@ -61,7 +63,7 @@ header:before {
     font-size: 30px;
 }
 .profile-picture-container {
-    margin-top: 1rem;
+    margin-top: 2rem;
     background-image: url('../img/pp.png');
     width: 250px;
     height: 250px;
@@ -79,8 +81,8 @@ header:before {
     align-items: end;
     width: 100%;
     height: 80px;
-    margin-top: 2rem;
-    background-color: rgb(255 255 255 / 60%);
+    margin-top: 1.5rem;
+    background-color: rgb(1 130 169 / 49%);
 }
 
 .menu ul {
@@ -114,4 +116,75 @@ header:before {
     width: 300px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+/* Page body */
+
+main {
+    display: flex;
+    margin: 2rem 6rem 2rem 6rem;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section{
+    margin: 2rem 0 2rem 0;
+}
+
+.profile-section {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title {
+    margin-bottom: 2rem;
+}
+
+.row-title {
+    width: 10%;
+}
+.row-content {
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+    width: 80%;
+}
+.section-item-last{
+    margin: 3.5rem 0 0 0;
+}
+.section-item-details-container{
+    justify-content: space-between;
+}
+
+.item-info {
+    width: 20%;
+    justify-content: center;
+}
+
+.item-info-date {
+
+}
+ .item-info-city {
+    margin-top: 0.5rem;
+ }
+
+.item-description {
+    width: 70%
+}
+
+.item-description-title {
+
+}
+.item-description-text {
+    margin-top: 0.5rem;
 }
